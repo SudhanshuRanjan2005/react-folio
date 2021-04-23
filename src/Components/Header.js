@@ -6,11 +6,11 @@ export default function Header() {
   return (
     <div>
       <nav className="nav ">
-        <div className="left">
+        <div className="left-links">
         <Link className="nav-link" to="/">Sudhanshu Ranjan</Link>
         </div>
 
-        <div className="right">
+        <div className="right-links">
         <Link className="nav-link right-link" to="/">Home</Link>
         <Link className="nav-link right-link" to="/about">About Me</Link>
         <Link className="nav-link right-link" to="#">Contact Me</Link>
