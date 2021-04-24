@@ -50,6 +50,13 @@ hr {
 }
 
 .badge {
-    margin: 5px 5px;
+    margin: 5px;
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 768px) {
+    hr {
+    width: 300px;
+    }
+  }
