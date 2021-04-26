@@ -13,6 +13,7 @@ export default function Header() {
         <div className="right-links">
         <Link className="nav-link right-link" to="/">Home</Link>
         <Link className="nav-link right-link" to="/about">About Me</Link>
+        <Link className="nav-link right-link" to="/project">Projects</Link>
         <Link className="nav-link right-link" to="#">Contact Me</Link>
           <div className="dropdown">
             <button className="btn btn-light bi bi-code-slash" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,7 +21,8 @@ export default function Header() {
             </button>
              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><Link className="dropdown-item" to="/">Home</Link></li>
-                <li><Link className="dropdown-item" to="/about">About</Link></li>
+                <li><Link className="dropdown-item" to="/about">About Me</Link></li>
+                <li><Link className="dropdown-item" to="/project">Projects</Link></li>
                 <li><Link className="dropdown-item" to="#">Contact Me</Link></li>
             </ul> 
           </div>
