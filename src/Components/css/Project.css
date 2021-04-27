@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -35,10 +35,11 @@
 
 .card{
     width: 32rem;
-    background: #fff;
     border-radius: 13px;
     margin: 30px auto;
     transition: 2s;
+    cursor: pointer;
+    height: 15rem;
 
 }
 
@@ -48,6 +49,33 @@
 
 .card-body {
     margin: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 3rem;
+    font-size: 35px;
+}
+
+.fa-firefox-browser {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+.fa-github {
+    position: absolute;
+    top: 80%;
+    left: 90%;
+}
+
+i {
+    font-size: 30px;
+}
+
+i:hover {
+    color: rgb(223, 223, 223);
 }
 
 
