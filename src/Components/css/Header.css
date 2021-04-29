@@ -1,56 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-    font-family: 'Inter', sans-serif;
-   
+  font-family: 'Inter', sans-serif;
 }
 
 .bi-code-slash {
-    font-size: 20px;
-    color: black;
+  font-size: 20px;
+  color: black;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .right-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropdown {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .dropdown {
-        display: block;
-        padding-right: 20px;
-    }
-    .right-link {
-        display: none;
-    }
-    a {
-        text-decoration: none;
-        color: #fff;
-        font-size: 15px;
-        
-    }
+  .dropdown {
+    display: block;
+    padding-right: 20px;
   }
-
+  .right-link {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+}
 
 /* main styling start from here  */
 a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
 
 nav {
-    backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }

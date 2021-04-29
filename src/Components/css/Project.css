@@ -1,106 +1,100 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 3px;    
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    backdrop-filter: blur(8px);
+  width: 3px;
+}
 
-  }
-  
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(103, 164, 199);
-    border-radius: 30px;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  backdrop-filter: blur(8px);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb {
+  background: rgb(103, 164, 199);
+  border-radius: 30px;
+}
 
 .row {
-    --bs-gutter-x: -3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  --bs-gutter-x: -3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .col-lg-6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.card{
-    width: 32rem;
-    border-radius: 13px;
-    margin: 30px auto;
-    transition: 2s;
-    cursor: pointer;
-    height: 15rem;
-
+.card {
+  width: 32rem;
+  border-radius: 13px;
+  margin: 30px auto;
+  transition: 2s;
+  cursor: pointer;
 }
 
 .card:hover {
-    transform: translateY(-15px);
+  transform: translateY(-15px);
 }
 
 .card-body {
-    margin: 30px;
+  margin: 30px;
 }
 
 h3 {
-    text-transform: uppercase;
-    font-weight: 900;
-    line-height: 3rem;
-    font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 3rem;
+  font-size: 35px;
 }
 
 .fa-firefox-browser {
-    position: absolute;
-    top: 80%;
-    left: 80%;
+  position: absolute;
+  top: 80%;
+  left: 80%;
 }
 
 .fa-github {
-    position: absolute;
-    top: 80%;
-    left: 90%;
+  position: absolute;
+  top: 80%;
+  left: 90%;
 }
 
 i {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 i:hover {
-    color: rgb(223, 223, 223);
+  color: rgb(223, 223, 223);
 }
-
 
 /* main styling start from here  */
 
 .card-1 {
-    background: linear-gradient(to right, #D4145A 0%, #FBB03B 100%);
+  background: linear-gradient(to right, #d4145a 0%, #fbb03b 100%);
 }
 
 .card-2 {
-    background: linear-gradient(to right, #2193b0 0%, #6dd5ed 100%);
+  background: linear-gradient(to right, #2193b0 0%, #6dd5ed 100%);
 }
 
 .card-3 {
-    background: linear-gradient(to right, #009FFF 0%, #ec2F4B 100%);
+  background: linear-gradient(to right, #009fff 0%, #ec2f4b 100%);
 }
 
 .card-4 {
-    background: linear-gradient(to right, #373B44 0%, #4286f4 100%);
+  background: linear-gradient(to right, #373b44 0%, #4286f4 100%);
 }
 
 .card-5 {
-    background: linear-gradient(to right, #7F00FF 0%, #E100FF 100%);
+  background: linear-gradient(to right, #7f00ff 0%, #e100ff 100%);
 }
 
-.card-6{
-    background: linear-gradient(to right, #159957 0%, #155799 100%);
+.card-6 {
+  background: linear-gradient(to right, #159957 0%, #155799 100%);
 }

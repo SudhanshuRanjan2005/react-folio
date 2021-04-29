@@ -1,26 +1,23 @@
 body {
-    background: linear-gradient(90deg, #f12711,#f5af19);
-    
+  background: linear-gradient(90deg, #f12711, #f5af19);
 }
 
 .home {
-    min-height: 88vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /* main styling start from here 
  */
 
 .home-name {
-    color: #fff;
-    font-size: 30px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .home-desc {
-    font-size: 25px;
-    color: rgb(226, 226, 226);
-
+  font-size: 25px;
+  color: rgb(226, 226, 226);
 }
